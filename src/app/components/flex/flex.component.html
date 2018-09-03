@@ -1,0 +1,9 @@
+<div fxLayoutWrap fxLayoutAlign="space-around center" fxLayout.xs="column" fxLayoutGap="4px">
+  <button fxFlex="20%">Button1</button>
+  <button fxFlexOffset="20px" fxFlexAlign="start">Button2</button>
+  <button fxFlexAlign="end">Button3</button>
+  <button fxFlex="20%">Button4</button>
+  <button fxFlex="20%">Button5</button>
+  <button [fxHide.xs]="isMobile()">Button6</button>
+  <button [fxHide.lg]="invisibleOnDesktop()" >Button7</button>
+</div>
